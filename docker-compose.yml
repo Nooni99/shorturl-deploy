@@ -2,8 +2,5 @@ version: '3.9'
 services:
   app:
     build: .
-    restart: always
-    env_file:
-      - .env
     ports:
-      - 80:3001
+      - 80:3002
