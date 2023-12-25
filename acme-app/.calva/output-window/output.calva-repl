@@ -1,0 +1,67 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\hmish\shorturl-deploy\acme-app & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 server & popd
+; Using host:port localhost:16695 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Syntax error compiling at (c:\Users\hmish\shorturl-deploy\src\clj\urlshortener\core.clj:55:3).
+; Unable to resolve symbol: server in this context
+clj꞉urlshortener.core꞉> 
+; [:browser-repl] Configuring build.
+; [:browser-repl] Compiling ...
+; [:browser-repl] Build completed. (119 files, 118 compiled, 0 warnings, 7.82s)
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :browser-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+cljs꞉user꞉> 
+; Syntax error compiling at (c:\Users\hmish\shorturl-deploy\src\clj\urlshortener\core.clj:55:3).
+; Unable to resolve symbol: server in this context
+clj꞉urlshortener.core꞉> 
+; Syntax error compiling at (c:\Users\hmish\shorturl-deploy\src\clj\urlshortener\core.clj:53:15).
+; Unable to resolve symbol: start in this context
+clj꞉urlshortener.core꞉> 
+; Evaluating file: core.clj
+; Execution error (FileNotFoundException) at urlshortener.core/eval25061$loading (core.clj:1).
+; Could not locate ring/adapter/jetty__init.class, ring/adapter/jetty.clj or ring/adapter/jetty.cljc on classpath.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉urlshortener.core꞉> 
+; Syntax error compiling at (c:\Users\hmish\shorturl-deploy\src\clj\urlshortener\core.clj:53:15).
+; Unable to resolve symbol: start in this context
+clj꞉urlshortener.core꞉> 
+; Execution error (FileNotFoundException) at urlshortener.core/eval25067$loading (REPL:1).
+; Could not locate ring/adapter/jetty__init.class, ring/adapter/jetty.clj or ring/adapter/jetty.cljc on classpath.
+clj꞉urlshortener.core꞉> 
+; Evaluating file: core.clj
+; Execution error (FileNotFoundException) at urlshortener.core/eval25076$loading (core.clj:1).
+; Could not locate ring/adapter/jetty__init.class, ring/adapter/jetty.clj or ring/adapter/jetty.cljc on classpath.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉urlshortener.core꞉> 

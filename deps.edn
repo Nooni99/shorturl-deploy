@@ -1,0 +1,24 @@
+{:paths ["src/clj" "src/cljs" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/java.jdbc {:mvn/version "0.7.12"}
+        mysql/mysql-connector-java {:mvn/version "8.0.30"} 
+        com.github.seancorfield/honeysql {:mvn/version "2.5.1091"}
+        javax.servlet/servlet-api {:mvn/version "2.5"}
+        ring/ring {:mvn/version "1.9.0"}
+        metosin/reitit {:mvn/version "0.5.12"}
+        metosin/muuntaja {:mvn/version "0.6.8"}
+        thheller/shadow-cljs {:mvn/version "2.26.2"}
+        org.slf4j/slf4j-simple {:mvn/version "1.6.2"}}
+ :aliases
+ {:build {:deps {io.github.clojure/tools.build {:git/tag "v0.9.6" :git/sha "8e78bcc"}}
+           :ns-default build}
+  :cljs
+  {:extra-deps {thheller/shadow-cljs {:mvn/version "2.26.2"}
+                lilactown/helix {:mvn/version "0.2.0"}
+                funcool/promesa {:mvn/version "11.0.678"}}}}}
+
+;;(ns tst.demo.core
+  ;;(:require [clojure.java.io :as io]) ; proper form, but not used anywhere
+  ;;(:import [org.clojure/java.jdbc]))
+
+;;(require '[clojure.java.jdbc :as j])

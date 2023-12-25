@@ -1,0 +1,24 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shadow-cljs": "^2.26.2",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "bash": "^0.0.1",
+    "curl": "^0.1.4",
+    "docker": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yarn": "^1.22.21"
+  }
+}
