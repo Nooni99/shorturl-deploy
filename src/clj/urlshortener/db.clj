@@ -1,7 +1,7 @@
 (ns urlshortener.db
   (:require [clojure.java.jdbc :as j] 
             [honey.sql :as sql]
-            [honey.sql.helpers :refer :all]
+            [honey.sql.helpers :refer [select, values, columns, insert-into, where, from]]
             [urlshortener.env :refer [env]])) 
 
 
